@@ -30,7 +30,7 @@ if (thisIndex == null) {
   tag.insertAdjacentHTML('afterbegin', `
 <table>
   <tr>
-    <td>This site isn't part of the ${ringName} webring yet. You should talk to the manager to have your site added to the list!</td>
+    <td>This site isn't part of the Merivale High School webring yet. You should talk to the manager to have your site added to the list!</td>
   </tr>
 </table>
   `);
@@ -59,9 +59,8 @@ else {
   <table>
     <tr>
       <td class='webring-prev'><a href='${sites[previousIndex]}'>← previous</a></td>
-      <td class='webring-info'>This site is part of the ${ringName} webring</br>
+      <td class='webring-info'>This site is part of the Merivale High School webring</br>
       <span class='webring-links'>
-        ${randomText}
         ${indexText}
         <a href='https://garlic.garden/onionring/'>what is this?</a></span></td>
       <td class='webring-next'><a href='${sites[nextIndex]}'>next →</a></td>
